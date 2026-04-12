@@ -1,0 +1,29 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*~
+
+# Logs
+*.log
+
+# Compressed files often used for manual backups
+*.zip
+*.7z
+*.rar
+
+# Local environment files
+.env
+.env.*
+
