@@ -1,11 +1,10 @@
-# Proyecto de configuracion de impresora y conectividad
+# Proyecto de configuracion de impresora
 
-Este repositorio organiza la configuracion de una impresora Anycubic Kobra 2 Neo con Klipper y deja preparada una zona separada para documentos relacionados con la red Wi-Fi.
+Este repositorio organiza la configuracion de una impresora Anycubic Kobra 2 Neo con Klipper.
 
 ## Estructura
 
 - `documentos/impresora/`: archivos de configuracion y macros de la impresora 3D.
-- `documentos/wifi/`: carpeta reservada para documentos y configuraciones relacionadas con la red Wi-Fi.
 - `.gitignore`: reglas para evitar subir archivos temporales, respaldos accidentales y configuraciones locales del editor.
 
 ## Descripcion de cada archivo
@@ -15,10 +14,6 @@ Este repositorio organiza la configuracion de una impresora Anycubic Kobra 2 Neo
 - `documentos/impresora/printer.cfg`: configuracion principal de Klipper para la impresora Anycubic Kobra 2 Neo. Define MCU, ejes, extrusor, cama caliente, sonda, malla de cama, ventiladores, sensores de temperatura y tiempos de espera.
 - `documentos/impresora/mainsail.cfg`: configuracion base de Mainsail con las secciones minimas del cliente, como tarjeta SD virtual, pausa/reanudacion, estado de pantalla y respuesta por consola.
 - `documentos/impresora/macros.cfg`: coleccion de macros personalizadas para operacion y mantenimiento. Incluye inicio y fin de impresion, pausas, purgas, mallado adaptativo, carga y descarga de filamento, precalentados y utilidades de calibracion.
-
-### Archivos de Wi-Fi
-
-- `documentos/wifi/README.md`: nota de estado de la carpeta de Wi-Fi. Actualmente no se encontraron archivos de este proyecto relacionados con la red inalambrica.
 
 ## Uso de la configuracion
 
@@ -47,18 +42,6 @@ Pasos recomendados en una instalacion con Klipper y Mainsail:
 - Confirmar que los valores de `rotation_distance`, `pressure_advance` e `input_shaper` pertenecen a esa maquina.
 - Probar primero funciones seguras como `STATUS`, `HOME` o precalentamiento antes de iniciar una impresion real.
 
-## Documentos de Wi-Fi
-
-La carpeta `documentos/wifi/` esta preparada para guardar material como:
-
-- credenciales o parametros de red sin secretos sensibles en texto plano
-- capturas o notas de configuracion
-- instrucciones de conexion del equipo a la red
-- procedimientos de diagnostico o recuperacion
-
-Si mas adelante agregas archivos de red, deben colocarse en esa carpeta y describirse tambien en este README.
-
 ## Notas
 
 - En el estado actual del proyecto solo habia archivos vinculados a la impresora.
-- No se han añadido aun documentos reales de Wi-Fi; solo se dejo preparada la estructura para incorporarlos sin mezclar categorias.
